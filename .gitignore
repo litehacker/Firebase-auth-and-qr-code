@@ -1,5 +1,6 @@
 node_modules/
 .expo/
+dist/
 npm-debug.*
 *.jks
 *.p8
@@ -8,10 +9,8 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+firebaseConfig/environment/*
 
 # macOS
 .DS_Store
-
-# dotenv environment variables file
 .env
-.env.test
